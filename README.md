@@ -1,12 +1,6 @@
-# Karabiner-Elements-config
+# Karabiner Config AI made README
 
-Here’s a clear and complete **README** for your Karabiner configuration file:
-
----
-
-# Karabiner Configuration AI made README
-
-IMPORTANT: virtual keyboard should be in ANSI, this was made for a logitech ANSI keyboard and a mac ISO keyboard.
+*IMPORTANT*: virtual keyboard should be in ANSI, this was made for a logitech ANSI keyboard and a mac ISO keyboard.
 This configuration defines several **device-specific keyboard remappings** for both the **Apple internal keyboard** and the **Logitech G815** keyboard. It’s designed to make both behave more consistently with macOS shortcuts and usability preferences.
 
 ---
