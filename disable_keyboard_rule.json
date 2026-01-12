@@ -1,0 +1,21 @@
+{
+    "description": "Disable Logitech keyboard (kill switch)",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "identifiers": [
+                        {
+                            "product_id": 49983,
+                            "vendor_id": 1133
+                        }
+                    ],
+                    "type": "device_if"
+                }
+            ],
+            "from": { "any": "key_code" },
+            "to": [],
+            "type": "basic"
+        }
+    ]
+}
