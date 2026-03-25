@@ -24,7 +24,7 @@
                                 ],
                                 "from": {
                                     "key_code": "f6",
-                                    "modifiers": { "optional": ["any"] }
+                                    "modifiers": { "optional": [] }
                                 },
                                 "to": [],
                                 "to_if_alone": [
@@ -60,7 +60,7 @@
                                 ],
                                 "from": {
                                     "key_code": "f3",
-                                    "modifiers": { "optional": ["any"] }
+                                    "modifiers": { "optional": [] }
                                 },
                                 "to": [
                                     {
@@ -89,7 +89,7 @@
                                 ],
                                 "from": {
                                     "key_code": "f5",
-                                    "modifiers": { "optional": ["any"] }
+                                    "modifiers": { "optional": [] }
                                 },
                                 "to": [],
                                 "to_if_alone": [
@@ -125,7 +125,7 @@
                                 ],
                                 "from": {
                                     "key_code": "f7",
-                                    "modifiers": { "optional": ["any"] }
+                                    "modifiers": { "optional": [] }
                                 },
                                 "to": [],
                                 "type": "basic"
@@ -239,7 +239,7 @@
                                 ],
                                 "from": {
                                     "key_code": "f9",
-                                    "modifiers": { "optional": ["any"] }
+                                    "modifiers": { "optional": [] }
                                 },
                                 "to": [{ "key_code": "f18" }],
                                 "type": "basic"
