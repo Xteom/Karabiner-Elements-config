@@ -349,7 +349,51 @@
                                 ],
                                 "from": {
                                     "key_code": "f9",
-                                    "modifiers": { "optional": ["any"] }
+                                    "modifiers": {
+                                        "mandatory": ["left_command"],
+                                        "optional": []
+                                    }
+                                },
+                                "to": [{ "key_code": "f9", "modifiers": ["fn"] }],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 835,
+                                                "vendor_id": 1452
+                                            }
+                                        ],
+                                        "type": "device_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "f9",
+                                    "modifiers": {
+                                        "mandatory": ["fn"],
+                                        "optional": []
+                                    }
+                                },
+                                "to": [{ "key_code": "f9", "modifiers": ["fn"] }],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 835,
+                                                "vendor_id": 1452
+                                            }
+                                        ],
+                                        "type": "device_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "f9",
+                                    "modifiers": { "optional": [] }
                                 },
                                 "to": [{ "key_code": "f18" }],
                                 "type": "basic"
